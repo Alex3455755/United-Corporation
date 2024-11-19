@@ -1,0 +1,76 @@
+.advantages h3{
+    font-family: Exo;
+font-size: 34px;
+font-weight: 700;
+line-height: 40.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #6D010C;
+}
+.advantages .container > p{
+    font-family: Exo;
+font-size: 24px;
+font-weight: 400;
+line-height: 33.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+max-width: 1070px;
+margin-top: 30px;
+margin-bottom: 54px;
+}
+.advantages .container {
+    height: 100%;
+    padding-top: 100px;
+}
+div.truck_mark{
+    position: absolute;
+    width: 80px;
+    top: 0;
+    left: 165px;
+    height: 80px;
+    background-color: #6D010C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantages * {
+    color: #737373;
+
+}
+.advantages{
+    height: 330px;
+    background-repeat: no-repeat;
+}
+.advantages ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.advantages li{
+    max-width: 234px;
+}
+.advantages h4{
+    font-family: Exo;
+font-size: 18px;
+font-weight: 300;
+line-height: 21.6px;
+color: #6D010C;
+margin-top: 22px;
+margin-bottom: 12px;
+}
+li p{
+font-size: 13px;
+font-weight: 400;
+line-height: 19.5px;
+margin-bottom: 12px;
+}
+.advantages a{
+    color:  #276DD7;
+    text-decoration: none;
+font-size: 13px;
+font-weight: 400;
+line-height: 19.5px;
+}

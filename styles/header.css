@@ -1,0 +1,36 @@
+header .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 3vw;
+    align-items: center;
+    height: 100%;
+}
+header{
+    background: rgba(0, 0, 0, 0.65);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+header a{
+    text-decoration: none;
+    display: block;
+}
+.active{
+    color: #6D010C;
+    position: relative;
+}
+li:has(.active)::after{
+    content: '';
+    position: absolute;
+    width: 47px;
+    top: 97px;
+    height: 3px;
+    background-color: #6D010C;
+}

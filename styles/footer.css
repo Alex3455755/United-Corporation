@@ -1,0 +1,94 @@
+.number{
+    background-color: #6D010C;
+    height: 140px;
+}
+.number div{
+    display: flex;
+    gap: 36px;
+}
+.number .container{
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.number *{
+    font-family: Exo;
+font-size: 30px;
+font-weight: 500;
+line-height: 36px;
+}
+.number button{
+    border-radius: 5px;
+    background-color: #590000;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.8px;
+border: none;
+padding: 12px 17px 11px 18px;
+text-transform: uppercase;
+}
+footer{
+    background: url(../img/BG.png),#313131;
+    height: 294px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer hr{
+    width: 100%;
+    border: 1px solid #3B3B3B;
+}
+footer > div{
+    display: flex;
+    margin-top: 15px;
+}
+footer a {
+    color: #276DD7;
+}
+footer .container div{
+    max-width: 330px;
+}
+footer h3 {
+    font-family: Exo;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px;
+color:#A60012;
+}
+footer .container{
+    width: 1290px;
+    padding-top: 63px;
+    height: 90%;
+    gap: 165px;
+}
+footer img {
+    max-height: 69px;
+}
+footer p{
+    font-family: Roboto;
+font-size: 13px;
+font-style: italic;
+font-weight: 400;
+line-height: 22.1px;
+color:#9B9B9B;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    display: flex;
+    gap: 5px;
+}
+#listFooter{
+    display: flex;
+    margin-top: 24px;
+    gap: 15px;
+}
+#marker div{
+    display: flex;
+    margin-top: 24px;
+}
+#marker p{
+    width: 110px;
+    margin-left: 19px;
+}

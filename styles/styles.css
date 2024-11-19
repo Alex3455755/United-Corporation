@@ -1,0 +1,321 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    color: white;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+}
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.top{
+    background-image: url(../img/topImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 790px;
+}
+.title{
+    font-family: 'Exo';
+    color: #6D010C;
+}
+.container{
+    max-width: 1290px;
+    margin: 0 auto;
+}
+.top_baner p {
+    max-width: 330px;
+    background-color: #6D010C;
+    padding: 1px 31px 1px 31px;
+    font-family: Exo;
+font-size: 34px;
+font-style: italic;
+font-weight: 500;
+line-height: 45.19px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.top_baner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 690px;
+}
+h1{
+    font-family: Exo;
+font-size: 56px;
+font-style: italic;
+font-weight: 600;
+line-height: 67.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+max-width: 630px;
+}
+.form-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    border: 2px solid #800000;
+}
+
+
+.form-header {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #737373;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-group input::placeholder {
+    color: #888;
+}
+
+.form-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #555;
+}
+
+.form-footer input {
+    margin-right: 10px;
+}
+.top_cards{
+    height: 713px;
+    background-color: #272727;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100% - 40.8px);
+}
+.cards div{
+    height: 466px;
+    width: 410px;
+    position: relative;
+}
+.top_cards .container{
+    height: 100%;
+    padding-top: 70px;
+}
+.cards > div > img{
+    margin-top: 40px;
+}
+.top_cards .container > p{
+    font-family: Exo;
+font-size: 34px;
+font-weight: 700;
+line-height: 40.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.cards h4{
+    font-family: Exo;
+font-size: 28px;
+font-weight: 300;
+line-height: 33.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 20px;
+margin-bottom: 14px;
+}
+.cards p{
+    line-height: 24px;
+}
+.advantages h3{
+    font-family: Exo;
+font-size: 34px;
+font-weight: 700;
+line-height: 40.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #6D010C;
+}
+.advantages .container > p{
+    font-family: Exo;
+font-size: 24px;
+font-weight: 400;
+line-height: 33.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+max-width: 1070px;
+margin-top: 30px;
+margin-bottom: 54px;
+}
+.advantages .container {
+    height: 100%;
+    padding-top: 100px;
+}
+div.truck_mark{
+    position: absolute;
+    width: 80px;
+    top: 0;
+    left: 165px;
+    height: 80px;
+    background-color: #6D010C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantages * {
+    color: #737373;
+
+}
+.advantages{
+    height: 600px;
+    background-image: url(../img/confetti.png);
+    background-repeat: no-repeat;
+}
+.advantages ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.advantages li{
+    max-width: 234px;
+}
+.advantages h4{
+    font-family: Exo;
+font-size: 18px;
+font-weight: 300;
+line-height: 21.6px;
+color: #6D010C;
+margin-top: 22px;
+margin-bottom: 12px;
+}
+li p{
+font-size: 13px;
+font-weight: 400;
+line-height: 19.5px;
+margin-bottom: 12px;
+}
+.advantages a{
+    color:  #276DD7;
+    text-decoration: none;
+font-size: 13px;
+font-weight: 400;
+line-height: 19.5px;
+}
+.whyWeBest{
+    background: url(../img/confetti2.png),#F5F5F5;
+
+    background-repeat: no-repeat;
+    background-position: right 0;
+    height: 690px;
+    position: relative;
+}
+.whyWeBest>img{
+    position: absolute;
+    right: 125px;
+    top: 210px;
+}
+.whyWeBest * {
+    color: #737373;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.whyWeBest .container div{
+    max-width: 350px;
+}
+#BestP{
+    margin-bottom: 20px;
+}
+.whyWeBest .container{
+    padding-top: 80px;
+}
+.whyWeBest div span{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+margin-bottom: 20px;
+display: block;
+}
+
+.whyWeBest h3{
+    font-family: Exo;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+color: #6D010C;
+margin-bottom: 31px;
+}
+.whyWeBest .container{
+    display: flex;
+    gap: 107px;
+}
+.whyWeBest #BestDiv{
+    max-width: 313px;
+}
+#BestDiv > div{
+    background-image: url(../img/quotation.png);
+    background-repeat: no-repeat;
+    background-position: top 0px left 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: relative;
+}
+#BestDiv > div > div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+#BestDiv img{
+    margin-right: 10px;
+}
+#BestDiv span{
+    display: block;
+    margin-bottom: 0;
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 19.5px;
+}
+#BestDiv > div:nth-child(2){
+    margin-top: 66px;
+}
