@@ -319,3 +319,62 @@ line-height: 19.5px;
 #BestDiv > div:nth-child(2){
     margin-top: 66px;
 }
+@media (max-width: 720px) {
+    .container{
+        width: 660px;
+    }
+    .top{
+        background-image: none;
+        background-color: #3a2a2a;
+        justify-content: space-around;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .top_baner{
+        flex-direction: column;
+        padding-top: 30px;
+        align-items: start;
+        gap: 20px;
+    }
+    nav{
+        display: none;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .top_cards{
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .advantages{
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .advantages ul{
+        flex-wrap: wrap;
+    }
+    .advantages li{
+        margin-bottom: 20px;
+    }
+    .whyWeBest{
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .whyWeBest .container{
+        flex-direction: column;
+    }
+    .number div *{
+        font-size: 16px;
+    }
+    .number div{
+        flex-wrap: wrap;
+    }
+    #footer{
+        height: auto;
+    }
+    footer div.container{
+        width: auto;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+}
